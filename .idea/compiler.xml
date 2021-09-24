@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for Kill Bill MOMO Francophone FlutterWave Plugin" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/systems/manifold/manifold-preprocessor/2020.1.45/manifold-preprocessor-2020.1.45.jar" />
+          <entry name="$MAVEN_REPOSITORY$/systems/manifold/manifold/2020.1.45/manifold-2020.1.45.jar" />
+          <entry name="$MAVEN_REPOSITORY$/systems/manifold/manifold-rt/2020.1.45/manifold-rt-2020.1.45.jar" />
+          <entry name="$MAVEN_REPOSITORY$/systems/manifold/manifold-util/2020.1.45/manifold-util-2020.1.45.jar" />
+        </processorPath>
+        <module name="killbill-momo-francophone-flutterwave-plugin" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="killbill-momo-francophone-flutterwave-plugin" options="-parameters -Xplugin:Manifold" />
+    </option>
+  </component>
+</project>
